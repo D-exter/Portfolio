@@ -12,24 +12,24 @@ Portfolio for Game Development and Technology
 Ice pong is a unique twist on the classic Pong game, where everything is set on an icy surface. The paddles and the ball slides across the slippery ice, making every move more challenging and unpredictable. Players must adjust their strategies and timing to account for the slippery nature of the game, as the ice affects the trajectory and speed of the ball.
 
 Controls
-Player 1: W for up, S for down
-Player 2: Up key, Down key
+- Player 1: W for up, S for down
+- Player 2: Up key, Down key
 
 
 # Minesweeper
 A simple recreation of Minesweeper the game. Customize the size of the minefield and adjust the number of bombs to your liking. Minesweeper allows you to test your skills and logic in a game that never gets old. Uncover the squares, avoid the hidden bombs, and aim for a high score in this timeless puzzle adventure.
 
 Controls
-Uncover Tile: Left click 
-Set Flag: Right click
+- Uncover Tile: Left click 
+- Set Flag: Right click
 
 
 # Mini golf
 Mini Golf is a game of precision and skill as you navigate through various challenging levels. Use simple controls by clicking and dragging on the ball to determine the direction and strength of your shot. With customizable game features, you can adjust the size of the course and the number of obstacles. Aim for the lowest number of shots possible for each level.
 
 Controls
-First shot: Click in orange box area
-Move ball: Click and drag in ball
+- First shot: Click in orange box area
+- Move ball: Click and drag in ball
 
 
 # UNO discord bot
@@ -37,23 +37,23 @@ the Uno Discord bot is an experience of the classic card game Uno right in your 
 
 Commands
 
-!join
+!join - 
 Join the game
 
-!leave
+!leave - 
 Leave the game
 
-!startgame
+!startgame - 
 Once everyone has joined, start the game
 
-!playcard
+!playcard - 
 To play a card in Uno, use the playcard command and specify the position or index of the card you want to play. For example, if you want to play the third card from the left in your hand, type !playcard 3. This means you'll count the cards in your hand from left to right and select the corresponding position to play the desired card. Make sure to choose a valid card that matches the color, number, or special actions required by the current card at the top. do not worry as the bot will send back a message to tell you if the card cannot be played
 
-!draw
+!draw - 
 Play this command if you do not have any playable cards but you can still draw even if you have a playable card.
 If there is card chaining and you do not have a +2 or +4 wild card to play you can play !draw to draw all the accumulated penalty cards.
 
-!c
+!c - 
 When a wild card is played, this command becomes available for that player to choose the color of the next playable card.
 e.g., !c r for red, !c g for green, etc.
 
@@ -63,16 +63,16 @@ Puzzle Plunge is game where you navigate through a grid-based maze, collecting c
 
 Controls
 
-Movement: WASD keys
+- Movement: WASD keys
 
 level editor
-cycle box type: left click box
+- cycle box type: left click box
 
-0 = bg    WHITE
-1 = player    GREEN
-2 = wall  BLUE
-3 = goal  RED
-4 = coin  YELLOW
+0 = bg    WHITE / 
+1 = player    GREEN / 
+2 = wall  BLUE / 
+3 = goal  RED / 
+4 = coin  YELLOW / 
 5 = black bg  BLACK
 
-set box to bg: right click
+- set box to bg: right click
