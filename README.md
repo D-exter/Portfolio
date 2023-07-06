@@ -1,4 +1,4 @@
-# Portfolio
+![image](https://github.com/D-exter/Portfolio/assets/138134061/67eb35e6-3a47-4295-9127-89b92754b922)# Portfolio
 Portfolio for Game Development and Technology 
 
 # Games
@@ -11,6 +11,8 @@ Portfolio for Game Development and Technology
 # Ice pong
 Ice pong is a unique twist on the classic Pong game, where everything is set on an icy surface. The paddles and the ball slides across the slippery ice, making every move more challenging and unpredictable. Players must adjust their strategies and timing to account for the slippery nature of the game, as the ice affects the trajectory and speed of the ball.
 
+![image](https://github.com/D-exter/Portfolio/assets/138134061/20bc01b8-ca23-4f24-80dc-cca92e7aa571)
+
 Controls
 - Player 1: W for up, S for down
 - Player 2: Up key, Down key
@@ -19,6 +21,9 @@ Controls
 # Minesweeper
 A simple recreation of Minesweeper the game. Customize the size of the minefield and adjust the number of bombs to your liking. Minesweeper allows you to test your skills and logic in a game that never gets old. Uncover the squares, avoid the hidden bombs, and aim for a high score in this timeless puzzle adventure.
 
+![image](https://github.com/D-exter/Portfolio/assets/138134061/e61a42d5-f68c-47dc-b737-030b908f4ec9)
+![image](https://github.com/D-exter/Portfolio/assets/138134061/27e7d858-5e77-4201-98a1-d06d84899b05)
+
 Controls
 - Uncover Tile: Left click 
 - Set Flag: Right click
@@ -26,6 +31,8 @@ Controls
 
 # Mini golf
 Mini Golf is a game of precision and skill as you navigate through various challenging levels. Use simple controls by clicking and dragging on the ball to determine the direction and strength of your shot. With customizable game features, you can adjust the size of the course and the number of obstacles. Aim for the lowest number of shots possible for each level.
+
+![image](https://github.com/D-exter/Portfolio/assets/138134061/a7419830-0cd8-485b-86eb-ce9798ab2cf5)
 
 Controls
 - First shot: Click in orange box area
@@ -60,6 +67,11 @@ e.g., !c r for red, !c g for green, etc.
 
 # puzzle plunge
 Puzzle Plunge is game where you navigate through a grid-based maze, collecting coins and reaching the designated goal square. Once a movement key is pressed, you will continue moving in that direction until it hits a wall. You have to collect all coins before you are allowed to reach the goal and complete the level. In the main menu there is a level editor where you use a simple interface to create your own level and play it after.
+
+![image](https://github.com/D-exter/Portfolio/assets/138134061/7f899bf7-44ec-4e1e-926d-1ae5388f2c2d)
+
+![image](https://github.com/D-exter/Portfolio/assets/138134061/6f00c825-dd44-47ef-b2ee-6df9f5dc138b)
+
 
 Controls
 
