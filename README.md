@@ -1,4 +1,4 @@
-![image](https://github.com/D-exter/Portfolio/assets/138134061/67eb35e6-3a47-4295-9127-89b92754b922)# Portfolio
+# Portfolio
 Portfolio for Game Development and Technology 
 
 # Games
