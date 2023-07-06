@@ -42,6 +42,11 @@ Controls
 # UNO discord bot
 the Uno Discord bot is an experience of the classic card game Uno right in your Discord server. Uno is a game where you play strategically and match the color or number of the top card on the discard pile. Special cards like Skip, Reverse, and Draw Two add twists and turns to the gameplay.
 
+![image](https://github.com/D-exter/Portfolio/assets/138134061/9cb8aeb9-1f77-465d-ac66-a8a625150d61)
+![image](https://github.com/D-exter/Portfolio/assets/138134061/576f5f65-4ea5-4e16-af1e-fc14cc78e438)
+![image](https://github.com/D-exter/Portfolio/assets/138134061/4688102a-5424-4057-87cb-dec37e60f95e)
+
+
 Commands
 
 !join - 
