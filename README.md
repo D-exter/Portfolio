@@ -102,7 +102,7 @@ When a wild card is played, this command becomes available for that player to ch
 e.g., !c r for red, !c g for green, etc.
 
 
-# puzzle plunge
+# Puzzle plunge
 Puzzle Plunge is game where you navigate through a grid-based maze, collecting coins and reaching the designated goal square. Once a movement key is pressed, you will continue moving in that direction until it hits a wall. You have to collect all coins before you are allowed to reach the goal and complete the level. In the main menu there is a level editor where you use a simple interface to create your own level and play it after.
 
 Project inspiration:

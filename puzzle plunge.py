@@ -166,7 +166,7 @@ def start_game():
     # 5 = black bg  BLACK
     
     # read level file
-    with open('zgames/byMe/levels.json', 'r') as f:
+    with open('levels.json', 'r') as f:
         level = json.load(f)
     maxlevel = len(level)
     if maxlevel == Selected_level:
@@ -226,7 +226,7 @@ while running:
         button = pygame.Rect(button1_x, button1_y, button_width, button_height)
         # change play button based on current level
         if Selected_level == 0:
-            text = 'start'
+            text = 'Plunge'
         else:
             text = str(Selected_level + 1)
         # blit text and button
@@ -289,12 +289,12 @@ while running:
             # check if space pressed to save edited level
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_SPACE:
-                    with open('zgames/byMe/levels.json', 'r') as f:
+                    with open('levels.json', 'r') as f:
                         levels = json.load(f)
 
                     levels.append(level)
 
-                    with open('zgames/byMe/levels.json', 'w') as f:
+                    with open('levels.json', 'w') as f:
                         json.dump(levels, f)
                     editormode = False
                         
