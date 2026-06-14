@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Card Crawler — Dexter Lee</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/project.css">
+	<script src="js/project.js" defer></script>
+</head>
+
+<body>
+
+	<nav>
+		<a href="index.html" class="logo">Dexter</a>
+		<ul class="nav-links">
+			<li><a href="index.html#projects">Projects</a></li>
+			<li><a href="index.html#experience">Experience</a></li>
+			<li><a href="resume.html">Resume</a></li>
+		</ul>
+	</nav>
+
+	<div class="breadcrumb">
+		<a href="index.html">Portfolio</a> / Card Crawler
+	</div>
+
+	<div class="game-title-container">
+		<h1>Card Crawler</h1>
+		<p class="game-subtitle">
+			First-Person 3D Dungeon Crawler / Bullet Heaven FPS - Unity, C# - Solo Project - Y3S1
+		</p>
+	</div>
+
+	<div class="main-layout-top">
+		<div class="media-block">
+			<div id="main-video">
+				<iframe width="100%" height="100%"
+					src="https://drive.google.com/file/d/1qmiypRFFxYdyLtjvcGMp3DKwBtNNP-1K/preview" allow="autoplay"
+					allowfullscreen>
+				</iframe>
+			</div>
+
+			<div id="main-img-0" class="main-img-container">
+				<img src="images/SProject1.png" alt="Screenshot 1">
+			</div>
+			<div id="main-img-1" class="main-img-container">
+				<img src="images/SProject2.png" alt="Screenshot 2">
+			</div>
+			<div id="main-img-2" class="main-img-container">
+				<img src="images/SProject3.png" alt="Screenshot 3">
+			</div>
+			<div id="main-img-3" class="main-img-container">
+				<img src="images/SProject4.png" alt="Screenshot 4">
+			</div>
+
+			<div class="thumb-strip">
+				<img id="thumb-video" src="images/SProjThumbnail.png" alt="Trailer" class="thumb-img active"
+					onclick="showMedia('video')">
+				<img id="thumb-0" src="images/SProject1.png" alt="Screenshot 1" class="thumb-img"
+					onclick="showMedia(0)">
+				<img id="thumb-1" src="images/SProject2.png" alt="Screenshot 2" class="thumb-img"
+					onclick="showMedia(1)">
+				<img id="thumb-2" src="images/SProject3.png" alt="Screenshot 3" class="thumb-img"
+					onclick="showMedia(2)">
+				<img id="thumb-3" src="images/SProject4.png" alt="Screenshot 4" class="thumb-img"
+					onclick="showMedia(3)">
+			</div>
+		</div>
+
+		<div class="info-card">
+			<img src="images/SProjThumbnail.png" alt="Card Crawler Cover" class="cover-art">
+			<p class="short-desc">
+				A first-person 3D dungeon crawler where players use magical cards to trigger high-speed combos in a
+				procedural environment.
+			</p>
+
+			<hr class="divider">
+
+			<div class="meta-row">
+				<span class="label">Engine</span>
+				<span>Unity (C#)</span>
+			</div>
+			<div class="meta-row">
+				<span class="label">Genre</span>
+				<span>Dungeon Crawler / Bullet Heaven FPS</span>
+			</div>
+			<div class="meta-row">
+				<span class="label">Team size</span>
+				<span>1 person (Solo)</span>
+			</div>
+			<div class="meta-row">
+				<span class="label">Duration</span>
+				<span>17 Weeks</span>
+			</div>
+			<div class="meta-row">
+				<span class="label">My role</span>
+				<span>Solo Developer</span>
+			</div>
+
+			<hr class="divider">
+
+			<div>
+				<span class="tag">Unity 3D</span>
+				<span class="tag">C#</span>
+				<span class="tag">Card Engine</span>
+				<span class="tag">Procedural Logic</span>
+				<span class="tag">UI Systems</span>
+			</div>
+
+			<hr class="divider">
+
+			<a href="https://d-exter.itch.io/card-crawler?secret=nrxNrBBkWrH7tiYr2r1Vwy3FQ" class="btn-green"
+				target="_blank">Play Game</a>
+		</div>
+	</div>
+
+	<div class="main-layout-bottom">
+		<div class="details-content">
+			<div class="content-section">
+				<p class="section-label">About the game</p>
+				<p class="body-text text-spacing">
+					Card Crawler fuses high-octane shooter combat with the dense horde-based survival mechanics of a
+					bullet heaven FPS. You play as a professional card thrower trapped in a magical dungeon where your
+					cards act as your sole survival tool. Players explore individual rooms and fight waves of enemies to
+					progress toward a boss guarding the exit.
+				</p>
+				<p class="body-text">
+					The gameplay centers on tactical synergies and a dynamic deck-building system. Every card thrown
+					carries its rarity as a throw multiplier, allowing effects to stack additively across subsequent
+					throws and trigger massive chain reactions. This build establishes the core card engine,
+					combat systems, and room logic as a foundation for the full dungeon crawler experience.
+				</p>
+			</div>
+
+			<div class="content-section">
+				<p class="section-label">What I built so far</p>
+				<div class="contribution-item">
+					Designed and programmed a first-person player controller with movement, jump, dash, and double jump
+					mechanics.
+				</div>
+				<div class="contribution-item">
+					Implemented first-person combat with card-throwing projectiles and close-quarters melee punch.
+				</div>
+				<div class="contribution-item">
+					Architected a multi-layered Card Engine handling deck logic, hand management, and a rarity-based
+					carryover system where card rarity acts as a throw multiplier, allowing effects to stack additively.
+				</div>
+				<div class="contribution-item">
+					Engineered stackable status debuffs: stacking Bleed that combines damage into one effect,
+					duration-refreshing Poison, and multi-instance Burn that applies separate damage ticks.
+				</div>
+				<div class="contribution-item">
+					Programmed basic projectile card effects including Critical damage multipliers, target-penetrating
+					Piercing, Homing vectors, and projectile size modifiers.
+				</div>
+				<div class="contribution-item">
+					Built buff card effects including on-hit Explosive triggers, Lifesteal recovery, Multishot
+					projectile counts, Rapid Fire throw rate increases, Draw Card on throw, and Repeater repeat attacks.
+				</div>
+				<div class="contribution-item">
+					Developed room logic with automated door containment and wave-based enemy spawning, plus a
+					simplified room generation system that chains rooms in sequence.
+				</div>
+				<div class="contribution-item">
+					Built UI covering player health bars, enemy counters, active effect tracking, and a post-room card
+					reward selection panel with three random card options.
+				</div>
+				<div class="contribution-item">
+					Implemented main menu, pause menu, loading screen, and a basic death screen.
+				</div>
+			</div>
+
+			<div class="content-section">
+				<p class="section-label">outcome</p>
+				<div class="result-box">
+					Delivered a functional game slightly ahead of schedule at week 8 of 17. The card
+					engine, combat systems, and room logic are all operational. Upcoming work covers full dungeon
+					generation, level design, boss AI, polished UI, audio, and playtesting through to week 17.
+				</div>
+			</div>
+		</div>
+
+		<div class="sidebar-content">
+			<div class="sidebar-block">
+				<p class="section-label">Skills demonstrated</p>
+				<div class="sidebar-item">First-person character locomotion</div>
+				<div class="sidebar-item">Card engine system architecture</div>
+				<div class="sidebar-item">Rarity-based carryover mechanic design</div>
+				<div class="sidebar-item">Status effect and debuff scripting</div>
+				<div class="sidebar-item">Wave-based room and spawner logic</div>
+				<div class="sidebar-item">Dynamic UI and menu systems</div>
+				<div class="sidebar-item">Modular gameplay software design</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		Dexter Lee -
+		<a href="https://github.com/D-exter" target="_blank">GitHub</a> -
+		<a href="https://www.linkedin.com/in/dexter-lee-jun-wei/" target="_blank">LinkedIn</a>
+	</footer>
+
+</body>
+
+</html>

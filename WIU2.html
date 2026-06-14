@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Carnival Quest | Dexter Lee</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/project.css">
+	<script src="js/project.js" defer></script>
+</head>
+
+<body>
+
+	<nav>
+		<a href="index.html" class="logo">Dexter</a>
+		<ul class="nav-links">
+			<li><a href="index.html#projects">Projects</a></li>
+			<li><a href="index.html#experience">Experience</a></li>
+			<li><a href="resume.html">Resume</a></li>
+		</ul>
+	</nav>
+
+	<div class="breadcrumb">
+		<a href="index.html">Portfolio</a> / Carnival Quest
+	</div>
+
+	<div class="game-title-container">
+		<h1>Carnival Quest</h1>
+		<p class="game-subtitle">
+			Graphics & Simulation / Minigame Hub - OpenGL, C++ - Team of 4 - Y1S2
+		</p>
+	</div>
+
+	<div class="main-layout-top">
+		<div class="media-block">
+			<div id="main-video">
+				<iframe width="100%" height="100%"
+					src="https://drive.google.com/file/d/17K1XF04ehmg-8cHP-OTFePDw3PeCIHaW/preview" allow="autoplay"
+					allowfullscreen>
+				</iframe>
+			</div>
+
+			<div id="main-img-0" class="main-img-container">
+				<img src="images/WIU2SS1.jpg" alt="Screenshot 1">
+			</div>
+			<div id="main-img-1" class="main-img-container">
+				<img src="images/WIU2SS2.jpg" alt="Screenshot 2">
+			</div>
+			<div id="main-img-2" class="main-img-container">
+				<img src="images/WIU2SS3.jpg" alt="Screenshot 3">
+			</div>
+			<div id="main-img-3" class="main-img-container">
+				<img src="images/WIU2SS4.jpg" alt="Screenshot 4">
+			</div>
+
+			<div class="thumb-strip">
+				<img id="thumb-video" src="images/WIU2Thumbnail.png" alt="Trailer" class="thumb-img active"
+					onclick="showMedia('video')">
+				<img id="thumb-0" src="images/WIU2SS1.jpg" alt="Screenshot 1" class="thumb-img" onclick="showMedia(0)">
+				<img id="thumb-1" src="images/WIU2SS2.jpg" alt="Screenshot 2" class="thumb-img" onclick="showMedia(1)">
+				<img id="thumb-2" src="images/WIU2SS3.jpg" alt="Screenshot 3" class="thumb-img" onclick="showMedia(2)">
+				<img id="thumb-3" src="images/WIU2SS4.jpg" alt="Screenshot 4" class="thumb-img" onclick="showMedia(3)">
+			</div>
+		</div>
+
+		<div class="info-card">
+			<img src="images/WIU2Thumbnail.png" alt="ASCII Art Cover" class="cover-art">
+			<p class="short-desc">
+				A 3D simulation featuring a connected carnival ground hub and four distinct physical minigames
+				built inside a custom graphics framework.
+			</p>
+
+			<hr class="divider">
+
+			<div class="meta-row">
+				<span class="label">Engine</span>
+				<span>OpenGL / C++ Framework</span>
+			</div>
+			<div class="meta-row">
+				<span class="label">Genre</span>
+				<span>Graphics Simulation</span>
+			</div>
+			<div class="meta-row">
+				<span class="label">Team size</span>
+				<span>4 people</span>
+			</div>
+			<div class="meta-row">
+				<span class="label">Duration</span>
+				<span>2 Weeks</span>
+			</div>
+			<div class="meta-row">
+				<span class="label">My role</span>
+				<span>Lead Physics & Core Systems Programmer</span>
+			</div>
+
+			<hr class="divider">
+
+			<div>
+				<span class="tag">OpenGL</span>
+				<span class="tag">C++</span>
+				<span class="tag">3D Physics</span>
+				<span class="tag">Collision Resolving</span>
+				<span class="tag">Scene Editor</span>
+			</div>
+
+			<hr class="divider">
+
+			<a href="https://drive.google.com/file/d/1wWoHyGH7xMMX7Cdi0zHIbxZQ84tQaYXg/view?usp=sharing"
+				class="btn-green" target="_blank">Play Game</a>
+		</div>
+	</div>
+
+	<div class="main-layout-bottom">
+		<div class="details-content">
+			<div class="content-section">
+				<p class="section-label">About the game</p>
+				<p class="body-text text-spacing">
+					Carnival Quest is a lively 3D carnival ground simulation game featuring a central hub that
+					connects four distinct minigame stalls. Before entering the hub, players speak to a ticketmaster
+					who gives them a stamp card that fills out as they win games. To secure victory, players must
+					clear the minimum score threshold for all four carnival activities.
+				</p>
+				<p class="body-text">
+					Built as part of the DX1125 Computer Graphics Simulation module, the environment was
+					collaboratively designed by the entire team using a custom OpenGL and C++ framework.
+				</p>
+			</div>
+
+			<div class="content-section">
+				<p class="section-label">What I built</p>
+				<div class="contribution-item">
+					Designed and implemented the Can Knocker minigame, where players throw a ball at moving stacks
+					of cans to knock down as many as possible within a 2-minute time limit.
+				</div>
+				<div class="contribution-item">
+					Developed the base physics engine handling real-time velocity calculations, directional
+					trajectories, and responsive bounding properties for all simulated objects.
+				</div>
+				<div class="contribution-item">
+					Programmed 3D collision detection supporting Sphere-to-Sphere and AABB-to-AABB intersection
+					calculations as narrow-phase collision layers.
+				</div>
+				<div class="contribution-item">
+					Authored collision resolution routines determining velocity feedback and bounce distribution
+					to simulate structural object tipping and impact responses.
+				</div>
+				<div class="contribution-item">
+					Engineered a Game Object System providing automated rendering context pipelines and
+					simultaneous collision boundary management for all scene entities.
+				</div>
+				<div class="contribution-item">
+					Created a real-time Scene Editor for modifying positions, scaling vectors, asset definitions,
+					and physics attributes on the fly during development.
+				</div>
+				<div class="contribution-item">
+					Built the Player class managing 3D first-person camera movement, look-around input,
+					navigation logic, and user button state triggers.
+				</div>
+				<div class="contribution-item">
+					Architected the Scene Manager and core backend loops handling centralized scene state
+					switching, Save/Load progress serialization, a particle system, main menu, and button UI.
+				</div>
+				<div class="contribution-item">
+					Executed final multi-module code integration, assembling all decoupled framework systems
+					alongside the core graphical interface into a cohesive build.
+				</div>
+			</div>
+
+			<div class="content-section">
+				<p class="section-label">Challenges & Solutions</p>
+				<div class="contribution-item">
+					<strong>Challenge:</strong> Implementing 3D AABB collision detection from scratch inside a custom
+					engine without access to a ready-made physics library.<br>
+					<strong>Solution:</strong> Researched YouTube tutorials and online technical documents to fully
+					understand how AABB intersection could be implemented and resolved in 3D space.
+				</div>
+			</div>
+
+			<div class="content-section">
+				<p class="section-label">Outcome</p>
+				<div class="result-box">
+					Delivered a modular 3D simulation framework underpinning the entire project, with stable
+					collision systems, a working scene editor, save/load support, and a complete particle and
+					UI pipeline. The Can Knocker minigame shipped as a fully playable, physically simulated
+					carnival experience within the two-week sprint.
+				</div>
+			</div>
+		</div>
+
+		<div class="sidebar-content">
+			<div class="sidebar-block">
+				<p class="section-label">Skills demonstrated</p>
+				<div class="sidebar-item">OpenGL rendering logic</div>
+				<div class="sidebar-item">3D analytical mathematics</div>
+				<div class="sidebar-item">Collision response vectors</div>
+				<div class="sidebar-item">Data-driven scene serialization</div>
+				<div class="sidebar-item">Low-level graphics wrappers</div>
+				<div class="sidebar-item">System component architecture</div>
+			</div>
+
+			<div class="sidebar-block">
+				<p class="section-label">Also in this series</p>
+				<div class="sidebar-item">
+					<p class="body-text">No other projects in this series.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		Dexter Lee -
+		<a href="https://github.com/D-exter" target="_blank">GitHub</a> -
+		<a href="https://www.linkedin.com/in/dexter-lee-jun-wei/" target="_blank">LinkedIn</a>
+	</footer>
+
+</body>
+
+</html>

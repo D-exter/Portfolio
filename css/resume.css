@@ -1,0 +1,156 @@
+.resume-header {
+	max-width: 800px;
+	margin: 48px auto 0;
+	padding: 0 30px;
+	text-align: center;
+}
+
+.resume-header h1 {
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 14px;
+	letter-spacing: -0.5px;
+}
+
+.contact-info {
+	font-size: 14px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 6px;
+}
+
+.contact-info .sep {
+	color: #285A48;
+}
+
+.resume-container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px 30px 80px;
+}
+
+section {
+	padding: 40px 0;
+}
+
+section + section {
+	border-top: 1px solid #285A48;
+}
+
+.section-title {
+	font-size: 11px;
+	font-weight: 700;
+	color: #51b392;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom: 24px;
+}
+
+.resume-item {
+	margin-bottom: 28px;
+}
+
+.resume-item:last-child {
+	margin-bottom: 0;
+}
+
+.item-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	gap: 15px;
+	margin-bottom: 4px;
+}
+
+.resume-item h3 {
+	font-size: 17px;
+	font-weight: 600;
+}
+
+.resume-item h4 {
+	font-size: 13px;
+	font-weight: 400;
+	color: #51b392;
+	margin-top: 3px;
+	margin-bottom: 10px;
+}
+
+.date {
+	font-size: 13px;
+	color: #51b392;
+	white-space: nowrap;
+	flex-shrink: 0;
+}
+
+.sub-text {
+	font-size: 14px;
+	line-height: 1.75;
+}
+
+.resume-bullets {
+	padding-left: 20px;
+	margin-top: 10px;
+}
+
+.resume-bullets li {
+	font-size: 14px;
+	margin-bottom: 8px;
+	line-height: 1.65;
+}
+
+.skills-grid {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.skills-category {
+	display: flex;
+	gap: 16px;
+	font-size: 14px;
+	line-height: 1.6;
+}
+
+.skills-category strong {
+	color: #51b392;
+	text-transform: uppercase;
+	font-size: 11px;
+	letter-spacing: 1px;
+	flex-shrink: 0;
+	width: 140px;
+	padding-top: 2px;
+}
+
+@media (max-width: 600px) {
+	.resume-header {
+		margin-top: 32px;
+	}
+
+	.resume-header h1 {
+		font-size: 30px;
+	}
+
+	.contact-info {
+		font-size: 13px;
+	}
+
+	.resume-container {
+		padding: 16px 16px 60px;
+	}
+
+	.item-header {
+		flex-direction: column;
+		gap: 2px;
+	}
+
+	.skills-category {
+		flex-direction: column;
+		gap: 4px;
+	}
+
+	.skills-category strong {
+		width: auto;
+	}
+}

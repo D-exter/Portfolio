@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Detective Dexter & Vector's Vanquishing | Dexter Lee</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/project.css">
+	<script src="js/project.js" defer></script>
+</head>
+
+<body>
+
+	<nav>
+		<a href="index.html" class="logo">Dexter</a>
+		<ul class="nav-links">
+			<li><a href="index.html#projects">Projects</a></li>
+			<li><a href="index.html#experience">Experience</a></li>
+			<li><a href="resume.html">Resume</a></li>
+		</ul>
+	</nav>
+
+	<div class="breadcrumb">
+		<a href="index.html">Portfolio</a> / Detective Dexter & Vector's Vanquishing
+	</div>
+
+	<div class="game-title-container">
+		<h1>Detective Dexter & Vector's Vanquishing</h1>
+		<p class="game-subtitle">
+			3D Bullet Heaven / Survivors-like - Unity, C# - Team of 4 - Y2S2
+		</p>
+	</div>
+
+	<div class="main-layout-top">
+		<div class="media-block">
+			<div id="main-video">
+				<iframe width="100%" height="100%"
+					src="https://drive.google.com/file/d/1gjzN47NsdNL8IhP7hEScjANGtJ3YzJhs/preview" allow="autoplay"
+					allowfullscreen>
+				</iframe>
+			</div>
+
+			<div id="main-img-0" class="main-img-container">
+				<img src="images/WIU4SS1.png" alt="Screenshot 1">
+			</div>
+			<div id="main-img-1" class="main-img-container">
+				<img src="images/WIU4SS2.png" alt="Screenshot 2">
+			</div>
+			<div id="main-img-2" class="main-img-container">
+				<img src="images/WIU4SS3.png" alt="Screenshot 3">
+			</div>
+			<div id="main-img-3" class="main-img-container">
+				<img src="images/WIU4SS4.png" alt="Screenshot 4">
+			</div>
+
+			<div class="thumb-strip">
+				<img id="thumb-video" src="images/WIU4Thumbnail.png" alt="Trailer" class="thumb-img active"
+					onclick="showMedia('video')">
+				<img id="thumb-0" src="images/WIU4SS1.png" alt="Screenshot 1" class="thumb-img" onclick="showMedia(0)">
+				<img id="thumb-1" src="images/WIU4SS2.png" alt="Screenshot 2" class="thumb-img" onclick="showMedia(1)">
+				<img id="thumb-2" src="images/WIU4SS3.png" alt="Screenshot 3" class="thumb-img" onclick="showMedia(2)">
+				<img id="thumb-3" src="images/WIU4SS4.png" alt="Screenshot 4" class="thumb-img" onclick="showMedia(3)">
+			</div>
+		</div>
+
+		<div class="info-card">
+			<img src="images/WIU4Thumbnail.png" alt="ASCII Art Cover" class="cover-art">
+			<p class="short-desc">
+				A fast-paced 3D bullet heaven game where players configure synergistic loadouts, upgrade stats, and fend
+				off massive enemy hordes to defeat the final boss.
+			</p>
+
+			<hr class="divider">
+
+			<div class="meta-row">
+				<span class="label">Engine</span>
+				<span>Unity (C#)</span>
+			</div>
+			<div class="meta-row">
+				<span class="label">Genre</span>
+				<span>Bullet Heaven / Survivors-like</span>
+			</div>
+			<div class="meta-row">
+				<span class="label">Team size</span>
+				<span>4 people</span>
+			</div>
+			<div class="meta-row">
+				<span class="label">Duration</span>
+				<span>2 Weeks</span>
+			</div>
+			<div class="meta-row">
+				<span class="label">My role</span>
+				<span>Gameplay Systems & Physics Programmer</span>
+			</div>
+
+			<hr class="divider">
+
+			<div>
+				<span class="tag">Unity 3D</span>
+				<span class="tag">C#</span>
+				<span class="tag">State Machines</span>
+				<span class="tag">Design Patterns</span>
+				<span class="tag">UI Systems</span>
+			</div>
+
+			<hr class="divider">
+
+			<a href="https://drive.google.com/file/d/1mTcqJGMGAWUR5_daTUBJdOkPU4DwBHWa/view?usp=sharing"
+				class="btn-green" target="_blank">Play Game</a>
+		</div>
+	</div>
+
+	<div class="main-layout-bottom">
+		<div class="details-content">
+			<div class="content-section">
+				<p class="section-label">About the game</p>
+				<p class="body-text text-spacing">
+					Detective Dexter and Vector's Vanquishing is the third chapter of the series, transitioning into
+					a fully 3D bullet heaven arena built in Unity during Year 3 Semester 2. After two seasons of
+					fighting Vector's army, Detective Dexter faces down the last of the robot legion and defeats
+					Vector once and for all. The theme is Boss Fight: players must survive enemy hordes, build up
+					synergistic loadouts, and prepare their stats before activating the boss portal to face a
+					significantly more powerful final boss.
+				</p>
+				<p class="body-text">
+					Attacks are automatic, keeping the focus on movement, loadout decisions, and stat upgrades.
+					The development cycle emphasised modular, decoupled architecture to allow rapid weapon tuning
+					and clean stat progression without disrupting existing core loops.
+				</p>
+			</div>
+
+			<div class="content-section">
+				<p class="section-label">What I built</p>
+				<div class="contribution-item">
+					Built the full player controller with a smooth state machine covering Idle, Run, Jump, Slide,
+					Fall, and Death states, plus custom crowd-pushing physics to let the player move freely
+					through large enemy swarms.
+				</div>
+				<div class="contribution-item">
+					Engineered a data-driven stat engine tracking 20+ upgradeable stats including Damage, Speed,
+					Luck, Block, and Thorns, with real-time XP levelling, stat growth curves, and automated
+					Health and Shield regeneration.
+				</div>
+				<div class="contribution-item">
+					Implemented the loot pickup system with object pooling for hundreds of simultaneous XP orb
+					and coin drops, magnet effects, and pickup ranges that scale dynamically with player stats.
+				</div>
+				<div class="contribution-item">
+					Designed a Passive Item and Rarity system where stackable buffs scale in power based on
+					their rolled rarity tier, backed by a randomiser used across chests, level-up rewards,
+					and the shop.
+				</div>
+				<div class="contribution-item">
+					Programmed the Level Up logic, Reward Randomiser, and Merchant logic handling price
+					randomisation, gold spending, and inventory updates for the shop NPC.
+				</div>
+				<div class="contribution-item">
+					Engineered a cinematic camera system with a smooth orbital main camera with dynamic zoom,
+					and a dedicated framing camera that focuses on the player and final boss at spawn.
+				</div>
+				<div class="contribution-item">
+					Scripted all dynamic world interactables: Challenge Shrines that spawn enemy waves with
+					a remaining count display, Zone Shrines for area-capture events, the Boss Portal that
+					summons the final boss and updates objectives, and both dropped and paid loot chests.
+				</div>
+				<div class="contribution-item">
+					Built the text popup manager for damage numbers and floating text, an item randomiser for
+					chests, shops, and level-up panels, and a random spawn system that places interactables
+					around the map with ground snapping.
+				</div>
+			</div>
+
+			<div class="content-section">
+				<p class="section-label">Outcome</p>
+				<div class="result-box">
+					Successfully delivered an optimized stat management framework capable of driving immediate upgrade
+					reactions across extensive combat properties. The separate architecture wrapper isolated gameplay
+					statistics from base rendering loops, allowing rapid iteration of weapon parameters and loadout
+					synergies.
+				</div>
+			</div>
+		</div>
+
+		<div class="sidebar-content">
+			<div class="sidebar-block">
+				<p class="section-label">Skills demonstrated</p>
+				<div class="sidebar-item">3D character state machine</div>
+				<div class="sidebar-item">Scalable stat formula processing</div>
+				<div class="sidebar-item">Object pooling for loot systems</div>
+				<div class="sidebar-item">Rarity and reward randomisation</div>
+				<div class="sidebar-item">Cinematic camera engineering</div>
+				<div class="sidebar-item">Interactive level element scripts</div>
+			</div>
+
+			<div class="sidebar-block">
+				<p class="section-label">Also in this series</p>
+				<div class="sidebar-item">
+					<a href="WIU1.html" class="series-link">The Sun Snatcher (C++ ASCII)</a>
+				</div>
+				<div class="sidebar-item">
+					<a href="WIU3.html" class="series-link">The Parade Pooper (Metroidvania)</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		Dexter Lee -
+		<a href="https://github.com/D-exter" target="_blank">GitHub</a> -
+		<a href="https://www.linkedin.com/in/dexter-lee-jun-wei/" target="_blank">LinkedIn</a>
+	</footer>
+
+</body>
+
+</html>

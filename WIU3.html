@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Parade Pooper | Dexter Lee</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/project.css">
+	<script src="js/project.js" defer></script>
+</head>
+
+<body>
+
+	<nav>
+		<a href="index.html" class="logo">Dexter</a>
+		<ul class="nav-links">
+			<li><a href="index.html#projects">Projects</a></li>
+			<li><a href="index.html#experience">Experience</a></li>
+			<li><a href="resume.html">Resume</a></li>
+		</ul>
+	</nav>
+
+	<div class="breadcrumb">
+		<a href="index.html">Portfolio</a> / Detective Dexter and the Parade Pooper
+	</div>
+
+	<div class="game-title-container">
+		<h1>Detective Dexter and the Parade Pooper</h1>
+		<p class="game-subtitle">
+			2D Metroidvania / Action Platformer - Unity, C# - Team of 4 - Y2S1
+		</p>
+	</div>
+
+	<div class="main-layout-top">
+		<div class="media-block">
+			<div id="main-video">
+				<iframe width="100%" height="100%"
+					src="https://drive.google.com/file/d/1qF3gsA_nv_fp9SO3Bd9Znq9INXUHbHwA/preview" allow="autoplay"
+					allowfullscreen>
+				</iframe>
+			</div>
+
+			<div id="main-img-0" class="main-img-container">
+				<img src="images/WIU3SS1.png" alt="Screenshot 1">
+			</div>
+			<div id="main-img-1" class="main-img-container">
+				<img src="images/WIU3SS2.png" alt="Screenshot 2">
+			</div>
+			<div id="main-img-2" class="main-img-container">
+				<img src="images/WIU3SS3.png" alt="Screenshot 3">
+			</div>
+			<div id="main-img-3" class="main-img-container">
+				<img src="images/WIU3SS4.png" alt="Screenshot 4">
+			</div>
+
+			<div class="thumb-strip">
+				<img id="thumb-video" src="images/WIU3Thumbnail.png" alt="Trailer" class="thumb-img active"
+					onclick="showMedia('video')">
+				<img id="thumb-0" src="images/WIU3SS1.png" alt="Screenshot 1" class="thumb-img" onclick="showMedia(0)">
+				<img id="thumb-1" src="images/WIU3SS2.png" alt="Screenshot 2" class="thumb-img" onclick="showMedia(1)">
+				<img id="thumb-2" src="images/WIU3SS3.png" alt="Screenshot 3" class="thumb-img" onclick="showMedia(2)">
+				<img id="thumb-3" src="images/WIU3SS4.png" alt="Screenshot 4" class="thumb-img" onclick="showMedia(3)">
+			</div>
+		</div>
+
+		<div class="info-card">
+			<img src="images/WIU3Thumbnail.png" alt="Thumbnail" class="cover-art">
+			<p class="short-desc">
+				A fast-paced 2D Metroidvania platformer focusing on precision movement mechanics, progressive
+				exploration unlocks, and chaotic boss encounters.
+			</p>
+
+			<hr class="divider">
+
+			<div class="meta-row">
+				<span class="label">Engine</span>
+				<span>Unity (C#)</span>
+			</div>
+			<div class="meta-row">
+				<span class="label">Genre</span>
+				<span>Metroidvania</span>
+			</div>
+			<div class="meta-row">
+				<span class="label">Team size</span>
+				<span>4 people</span>
+			</div>
+			<div class="meta-row">
+				<span class="label">Duration</span>
+				<span>2 Weeks</span>
+			</div>
+			<div class="meta-row">
+				<span class="label">My role</span>
+				<span>Lead Gameplay & Systems Programmer</span>
+			</div>
+
+			<hr class="divider">
+
+			<div>
+				<span class="tag">Unity 2D</span>
+				<span class="tag">C#</span>
+				<span class="tag">State Machines</span>
+				<span class="tag">2D Physics Math</span>
+				<span class="tag">Systems Architecture</span>
+			</div>
+
+			<hr class="divider">
+
+			<a href="https://drive.google.com/file/d/1PPky8hq0SMRh23kwMLzVy7RYWhWP4D1U/view?usp=sharing"
+				class="btn-green" target="_blank">Play Game</a>
+		</div>
+	</div>
+
+	<div class="main-layout-bottom">
+		<div class="details-content">
+			<div class="content-section">
+				<p class="section-label">About the game</p>
+				<p class="body-text text-spacing">
+					Detective Dexter and the Parade Pooper is a 2D Metroidvania action platformer built in Unity
+					during Year 3 Semester 1. The game is themed around SG60: Detective Dexter, a foreign agent,
+					arrives in Singapore to investigate Vector Three, who is attempting to shut down the country's
+					power during the National Day Parade. Players explore Singapore-inspired environments, collect
+					cultural items like kopi and durians, and encounter references to local folklore, all while
+					fighting to keep the NDP going.
+				</p>
+				<p class="body-text">
+					Following Metroidvania conventions, the game features non-linear exploration, power-up unlocks
+					that gate new areas, and multi-stage boss fights, layered over a modular component architecture
+					built to support rapid iteration across a two-week sprint.
+				</p>
+			</div>
+
+			<div class="content-section">
+				<p class="section-label">What I built</p>
+				<div class="contribution-item">
+					Built the full player controller covering basic movement (run and jump), directional attacking
+					including wall slide attacks, and a health system with knockback, i-frames, screen shake, and
+					time-freeze visual feedback.
+				</div>
+				<div class="contribution-item">
+					Programmed a Finite State Machine governing all movement skills: dash, wall slide, wall jump,
+					double jump, and pogo, each only enabled once the corresponding upgrade is collected.
+				</div>
+				<div class="contribution-item">
+					Designed an event-driven ability and items system that parses unlock states to extend player
+					navigation and map access when items are picked up, including artifact effects such as longer
+					attacks, attack speed, shorter dash cooldown, and increased health.
+				</div>
+				<div class="contribution-item">
+					Implemented seamless scene transitions in all directions (left to right, up to down) alongside
+					a checkpoint respawn system using flags and a fast travel system via MRT stations.
+				</div>
+				<div class="contribution-item">
+					Engineered custom 2D hitbox and hurtbox layer filters for precise hit registration across
+					player attacks, weapon swings, and environmental hazards such as barbed wire and spiky bushes,
+					with logic to return the player to a safe point after contact.
+				</div>
+				<div class="contribution-item">
+					Constructed the full menu and UI suite: main menu, pause menu, volume settings, and a player
+					health HUD, alongside a centralised SFX player and particle effect manager.
+				</div>
+				<div class="contribution-item">
+					Implemented camera follow logic tuned for falling movement, and designed the tutorial scenes
+					guiding players through the opening parade area.
+				</div>
+			</div>
+
+			<div class="content-section">
+				<p class="section-label">Challenges & Solutions</p>
+				<div class="contribution-item">
+					<strong>Challenge:</strong> Meeting the deadline while managing the volume of planned content,
+					as the scope was more ambitious than previous WIUs with a much tighter timeline.<br>
+					<strong>Solution:</strong> Prioritised core gameplay features and cut less essential content
+					that would not significantly impact the overall gameplay experience.
+				</div>
+				<div class="contribution-item">
+					<strong>Challenge:</strong> The higher complexity of this project led to more bugs and semantic
+					errors, which consumed significant debugging time and caused delays.<br>
+					<strong>Solution:</strong> Worked more closely as a team by regularly reviewing and playtesting
+					new features to catch errors earlier and reduce debugging overhead.
+				</div>
+			</div>
+
+			<div class="content-section">
+				<p class="section-label">Outcome</p>
+				<div class="result-box">
+					Delivered a complete, playable Metroidvania across nine interconnected scenes within two weeks.
+					The modular player FSM and unlock system allowed the team to iterate on level design and
+					encounter parameters rapidly, while the centralised UI, SFX, and transition systems kept
+					integration clean across all four contributors.
+				</div>
+			</div>
+		</div>
+
+		<div class="sidebar-content">
+			<div class="sidebar-block">
+				<p class="section-label">Skills demonstrated</p>
+				<div class="sidebar-item">Finite State Machine design</div>
+				<div class="sidebar-item">Precision platforming physics</div>
+				<div class="sidebar-item">Event-driven ability systems</div>
+				<div class="sidebar-item">Scene transition architecture</div>
+				<div class="sidebar-item">UI and HUD systems</div>
+				<div class="sidebar-item">2D hitbox and hurtbox engineering</div>
+			</div>
+
+			<div class="sidebar-block">
+				<p class="section-label">Also in this series</p>
+				<div class="sidebar-item">
+					<a href="WIU1.html" class="series-link">The Sun Snatcher (C++ ASCII)</a>
+				</div>
+				<div class="sidebar-item">
+					<a href="WIU4.html" class="series-link">Detective Dexter & Vector's Vanquishing (3D Unity)</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		Dexter Lee -
+		<a href="https://github.com/D-exter" target="_blank">GitHub</a> -
+		<a href="https://www.linkedin.com/in/dexter-lee-jun-wei/" target="_blank">LinkedIn</a>
+	</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,294 @@
+.breadcrumb {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 24px 30px 0;
+	font-size: 13px;
+	color: #408A71;
+}
+
+.game-title-container {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 20px 30px 0;
+}
+
+.game-title-container h1 {
+	font-size: 28px;
+	color: #B0E4CC;
+	margin: 0;
+}
+
+.game-subtitle {
+	font-size: 14px;
+	color: #408A71;
+	margin-top: 6px;
+	margin-bottom: 0;
+}
+
+.main-layout-top {
+	max-width: 1100px;
+	margin: 24px auto 0;
+	padding: 0 30px;
+	display: flex;
+	gap: 20px;
+	align-items: flex-start;
+}
+
+.media-block {
+	flex: 1;
+	min-width: 0;
+}
+
+#main-video {
+	width: 100%;
+	aspect-ratio: 16/9;
+	background-color: #0f2420;
+	border: 1px solid #285A48;
+}
+
+#main-video iframe {
+	display: block;
+	border: none;
+}
+
+.thumb-strip {
+	display: flex;
+	gap: 6px;
+	margin-top: 6px;
+	overflow-x: auto;
+}
+
+.thumb-img {
+	width: 116px;
+	height: 65px;
+	object-fit: cover;
+	display: block;
+	cursor: pointer;
+	border: 2px solid #285A48;
+	flex-shrink: 0;
+}
+
+.thumb-img:hover {
+	border-color: #B0E4CC;
+}
+
+.thumb-img.active {
+	border-color: #B0E4CC;
+}
+
+.info-card {
+	width: 320px;
+	flex-shrink: 0;
+	background-color: #0f2420;
+	border: 1px solid #285A48;
+	padding: 22px;
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+	box-sizing: border-box;
+}
+
+.cover-art {
+	width: 100%;
+	background-color: #285A48;
+	height: 180px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #408A71;
+	font-size: 13px;
+	overflow: hidden;
+	object-fit: cover;
+}
+
+.short-desc {
+	font-size: 13px;
+	color: #B0E4CC;
+	line-height: 1.6;
+	margin: 0;
+}
+
+.meta-row {
+	display: flex;
+	justify-content: space-between;
+	font-size: 13px;
+}
+
+.meta-row .label {
+	color: #408A71;
+}
+
+.tag {
+	background-color: #285A48;
+	color: #B0E4CC;
+	padding: 3px 10px;
+	border-radius: 4px;
+	font-size: 12px;
+	display: inline-block;
+	margin: 2px;
+}
+
+.btn-green {
+	display: block;
+	text-align: center;
+	padding: 12px;
+	background-color: #408A71;
+	color: #091413;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 2px;
+	margin-bottom: 8px;
+}
+
+.btn-green:hover {
+	background-color: #B0E4CC;
+	color: #091413;
+}
+
+.btn-outline {
+	display: block;
+	text-align: center;
+	padding: 10px;
+	border: 1px solid #285A48;
+	color: #B0E4CC;
+	font-size: 13px;
+	border-radius: 2px;
+}
+
+.btn-outline:hover {
+	border-color: #B0E4CC;
+	background-color: #0f2420;
+}
+
+.section-label {
+	font-size: 13px;
+	font-weight: bold;
+	color: #408A71;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom: 16px;
+	margin-top: 0;
+}
+
+.divider {
+	border: none;
+	border-top: 1px solid #285A48;
+	margin: 14px 0;
+}
+
+.main-layout-bottom {
+	max-width: 1100px;
+	margin: 40px auto 0;
+	padding: 0 30px;
+	display: flex;
+	gap: 40px;
+	align-items: flex-start;
+}
+
+.main-img-container {
+	display: none;
+	width: 100%;
+	aspect-ratio: 16/9;
+	border: 1px solid #285A48;
+}
+
+.main-img-container img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+
+.details-content {
+	flex: 1;
+}
+
+.content-section {
+	margin-bottom: 40px;
+}
+
+.body-text {
+	font-size: 14px;
+	color: #B0E4CC;
+	line-height: 1.8;
+	margin: 0;
+}
+
+.text-spacing {
+	margin-bottom: 12px;
+}
+
+.contribution-item {
+	font-size: 14px;
+	color: #B0E4CC;
+	line-height: 1.7;
+	margin-bottom: 10px;
+	padding-left: 20px;
+	border-left: 2px solid #408A71;
+}
+
+.result-box {
+	background-color: #285A48;
+	border-left: 3px solid #B0E4CC;
+	padding: 14px 18px;
+	font-size: 14px;
+	color: #B0E4CC;
+	line-height: 1.6;
+}
+
+.sidebar-content {
+	width: 320px;
+	flex-shrink: 0;
+}
+
+.sidebar-block {
+	background-color: #0f2420;
+	border: 1px solid #285A48;
+	padding: 20px;
+	margin-bottom: 16px;
+}
+
+.sidebar-item {
+	font-size: 13px;
+	color: #B0E4CC;
+	margin-bottom: 6px;
+	padding-left: 14px;
+}
+
+.series-link {
+	color: #408A71;
+	text-decoration: underline;
+}
+
+.series-link:hover {
+	color: #B0E4CC;
+}
+
+footer {
+	margin-top: 80px;
+}
+
+@media (max-width: 940px) {
+
+	nav,
+	.breadcrumb,
+	.game-title-container,
+	.main-layout-top,
+	.main-layout-bottom {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+	.main-layout-top,
+	.main-layout-bottom {
+		flex-direction: column;
+		gap: 24px;
+	}
+
+	.media-block,
+	.details-content,
+	.info-card,
+	.sidebar-content {
+		width: 100%;
+	}
+}
